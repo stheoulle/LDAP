@@ -1,0 +1,7 @@
+dn: cn=testuser,ou=people,dc=myguest,dc=virtualbox,dc=org
+objectClass: inetOrgPerson
+cn: testuser
+sn: Test
+givenName: User
+mail: testuser@myguest.virtualbox.org
+userPassword: testpass

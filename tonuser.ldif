@@ -1,0 +1,29 @@
+dn: uid=tonuser,ou=people,dc=myguest,dc=virtualbox,dc=org
+changetype: modify
+replace: objectClass
+objectClass: inetOrgPerson
+objectClass: posixAccount
+-
+replace: uid
+uid: tonuser
+-
+replace: sn
+sn: User
+-
+replace: cn
+cn: Ton User
+-
+replace: userPassword
+userPassword: {SSHA}lRJA975UO6a8wY4K27bKFQI76fcztnuD
+-
+replace: uidNumber
+uidNumber: 1001
+-
+replace: gidNumber
+gidNumber: 100
+-
+replace: homeDirectory
+homeDirectory: /home/tonuser
+-
+replace: loginShell
+loginShell: /bin/bash

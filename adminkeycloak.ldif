@@ -1,0 +1,5 @@
+dn: cn=adminkeycloak,ou=admins,dc=myguest,dc=virtualbox,dc=org
+objectClass: top
+objectClass: groupOfNames
+cn: adminkeycloak
+member: uid=tonuser,ou=people,dc=myguest,dc=virtualbox,dc=org

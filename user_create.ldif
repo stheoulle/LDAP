@@ -1,0 +1,12 @@
+# Créer l'unité organisationnelle "people"
+dn: ou=people,dc=myguest,dc=virtualbox,dc=org
+objectClass: organizationalUnit
+ou: people
+
+# Créer l'utilisateur "tonuser"
+dn: uid=tonuser,ou=people,dc=myguest,dc=virtualbox,dc=org
+objectClass: inetOrgPerson
+uid: tonuser
+sn: User
+cn: Ton User
+userPassword: {SSHA}kbFsP9BCXK0by+tlZQVcDvH044ocosv2

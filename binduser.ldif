@@ -1,0 +1,6 @@
+dn: uid=binduser,ou=people,dc=myguest,dc=virtualbox,dc=org
+objectClass: inetOrgPerson
+uid: binduser
+sn: BindUser
+cn: Bind User
+userPassword: {SSHA}Siy5+M2FHFxg0Db1SUaFk6ZELxnTQf7o

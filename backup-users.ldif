@@ -1,0 +1,95 @@
+dn: dc=myguest,dc=virtualbox,dc=org
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: myguest.virtualbox.org
+dc: myguest
+structuralObjectClass: organization
+entryUUID: 5576bb3e-42a8-1040-9409-1f1affd69e61
+creatorsName: cn=admin,dc=myguest,dc=virtualbox,dc=org
+createTimestamp: 20251021090154Z
+entryCSN: 20251021090154.026499Z#000000#000#000000
+modifiersName: cn=admin,dc=myguest,dc=virtualbox,dc=org
+modifyTimestamp: 20251021090154Z
+
+dn: ou=people,dc=myguest,dc=virtualbox,dc=org
+objectClass: organizationalUnit
+ou: people
+structuralObjectClass: organizationalUnit
+entryUUID: 470a4128-42a9-1040-9945-cf91dc4a8caf
+creatorsName: cn=admin,dc=myguest,dc=virtualbox,dc=org
+createTimestamp: 20251021090839Z
+entryCSN: 20251021090839.324097Z#000000#000#000000
+modifiersName: cn=admin,dc=myguest,dc=virtualbox,dc=org
+modifyTimestamp: 20251021090839Z
+
+dn: uid=tonuser,ou=people,dc=myguest,dc=virtualbox,dc=org
+structuralObjectClass: inetOrgPerson
+entryUUID: 8056e116-42a9-1040-9946-cf91dc4a8caf
+creatorsName: cn=admin,dc=myguest,dc=virtualbox,dc=org
+createTimestamp: 20251021091015Z
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: tonuser
+sn: User
+cn: Ton User
+userPassword:: e1NTSEF9bFJKQTk3NVVPNmE4d1k0SzI3YktGUUk3NmZjenRudUQ=
+uidNumber: 1001
+gidNumber: 100
+homeDirectory: /home/tonuser
+loginShell: /bin/bash
+entryCSN: 20251021132430.211944Z#000000#000#000000
+modifiersName: uid=tonuser,ou=people,dc=myguest,dc=virtualbox,dc=org
+modifyTimestamp: 20251021132430Z
+
+dn: ou=admins,dc=myguest,dc=virtualbox,dc=org
+objectClass: organizationalUnit
+ou: admins
+structuralObjectClass: organizationalUnit
+entryUUID: 99554108-42a9-1040-9947-cf91dc4a8caf
+creatorsName: cn=admin,dc=myguest,dc=virtualbox,dc=org
+createTimestamp: 20251021091057Z
+entryCSN: 20251021091057.388928Z#000000#000#000000
+modifiersName: cn=admin,dc=myguest,dc=virtualbox,dc=org
+modifyTimestamp: 20251021091057Z
+
+dn: cn=adminldap,ou=admins,dc=myguest,dc=virtualbox,dc=org
+objectClass: top
+objectClass: groupOfNames
+cn: adminldap
+member: uid=tonuser,ou=people,dc=myguest,dc=virtualbox,dc=org
+structuralObjectClass: groupOfNames
+entryUUID: 9e3f4a92-42a9-1040-9948-cf91dc4a8caf
+creatorsName: cn=admin,dc=myguest,dc=virtualbox,dc=org
+createTimestamp: 20251021091105Z
+entryCSN: 20251021091105.633616Z#000000#000#000000
+modifiersName: cn=admin,dc=myguest,dc=virtualbox,dc=org
+modifyTimestamp: 20251021091105Z
+
+dn: cn=adminkeycloak,ou=admins,dc=myguest,dc=virtualbox,dc=org
+objectClass: top
+objectClass: groupOfNames
+cn: adminkeycloak
+member: uid=tonuser,ou=people,dc=myguest,dc=virtualbox,dc=org
+structuralObjectClass: groupOfNames
+entryUUID: a230649c-42a9-1040-9949-cf91dc4a8caf
+creatorsName: cn=admin,dc=myguest,dc=virtualbox,dc=org
+createTimestamp: 20251021091112Z
+entryCSN: 20251021091112.246863Z#000000#000#000000
+modifiersName: cn=admin,dc=myguest,dc=virtualbox,dc=org
+modifyTimestamp: 20251021091112Z
+
+dn: uid=binduser,ou=people,dc=myguest,dc=virtualbox,dc=org
+objectClass: inetOrgPerson
+uid: binduser
+sn: BindUser
+cn: Bind User
+userPassword:: e1NTSEF9U2l5NStNMkZIRnhnMERiMVNVYUZrNlpFTHhuVFFmN28=
+structuralObjectClass: inetOrgPerson
+entryUUID: 57e5efc0-42c6-1040-881e-13324ec6e321
+creatorsName: cn=admin,dc=myguest,dc=virtualbox,dc=org
+createTimestamp: 20251021123643Z
+entryCSN: 20251021123643.012612Z#000000#000#000000
+modifiersName: cn=admin,dc=myguest,dc=virtualbox,dc=org
+modifyTimestamp: 20251021123643Z
+

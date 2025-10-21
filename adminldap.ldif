@@ -1,0 +1,5 @@
+dn: cn=adminldap,ou=admins,dc=myguest,dc=virtualbox,dc=org
+objectClass: top
+objectClass: groupOfNames
+cn: adminldap
+member: uid=tonuser,ou=people,dc=myguest,dc=virtualbox,dc=org

@@ -1,0 +1,4 @@
+dn: uid=tonuser,ou=people,dc=myguest,dc=virtualbox,dc=org
+changetype: modify
+replace: userPassword
+userPassword: test

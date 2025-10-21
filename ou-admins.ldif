@@ -1,0 +1,3 @@
+dn: ou=admins,dc=myguest,dc=virtualbox,dc=org
+objectClass: organizationalUnit
+ou: admins
